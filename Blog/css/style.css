@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(83, 72, 72);
+}
+
+.navbar a{
+    color: rgb(255, 255, 255);
+}
+
+.nav li a:hover{
+    background-color: rgb(56, 48, 48);
+}
+
+.navbar-header a{
+    font-size: 25px;
+}
+
+.navbar-custom{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+header{
+    height: 300px;
+    padding: 100px 50px;
+    color: white;
+}
+
+header h1{
+    font-size: 50px;
+}
+
+#post{
+    border-bottom: 1px solid black;
+}
+
+#post h1{
+    font-weight: bold;
+}
+
+#post h1 a{
+    color: white;
+    text-decoration: none;
+}
+
+#post h1 a:hover{
+    color: rgb(185, 161, 161);
+}
+
+#post p{
+    color: #ffffff;
+    text-align: justify;
+}
+
+.down-btn{
+    padding: 50px 0px;
+}
+
+.btn{
+    border-radius: 20px;
+}
+
+.btn-default:hover{
+    background-color: rgb(151, 131, 131);
+}
+
+.nav-mycenter{
+    float: none;
+    display: table;
+    margin: 0 auto;
+}
+
+.nav-mycenter li a{
+    color: rgb(0, 0, 0);
+}
+
+.nav-mycenter li a:hover{
+    background-color: rgb(66, 60, 60);
+}
+
+.m-col{
+    -webkit-column-count: 3;
+
+}
+
+.row{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: justify;
+}
+
+#goal, #need{
+    border-bottom: 1px solid black;
+}
+
+#goal h1, #need h1 {
+    color: #ffffff;
+    text-decoration: none;
+}
