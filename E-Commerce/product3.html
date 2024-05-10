@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+        img{
+            width: 50%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .carousel-indicators li{
+            background-color: rgb(0, 0, 0);
+        }
+        .carousel-caption h4{
+            color: rgb(71, 64, 64);
+            width: 60%;
+        }
+        p{
+            color: rgb(71, 64, 64);
+            width: 60%;
+            font-size: 10px;
+        }
+        .list-group p{
+            font-size: 12px;
+        }
+        .caption{
+            text-align: justify;
+        }
+        .btn{
+            margin-bottom: 10px;
+        }
+        .well p{
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">E-Commerce</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Badminton Raquets</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <aside class="col-md-4">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="list-group">
+                <a href="product.html" class="list-group-item" style="padding: 0; margin: 0;">
+                    <div class="col-md-3" style="padding: 0; margin: 0;">
+                        <img src="image/1.jpg" style="width: 100%;">
+                    </div>
+
+                    <div class="col-md-9">
+                        <div class="list-group-item-heading">
+                            <h4 style="color: green;">Php 10,000</h4>
+                            <h4 style="font-size: 20px;"><b>Z-STAR POWER 88</b></h4>
+                            <div class="clearfix"></div>
+                        </div>
+                        <p class="list-group-item-text">Stronger & steeper attacks</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>    
+            </div>
+        </div>
+
+        <div class="col-md-10 col-md-offset-1">
+            <div class="list-group">
+                <a href="product2.html" class="list-group-item" style="padding: 0; margin: 0;">
+                    <div class="col-md-3" style="padding: 0; margin: 0;">
+                        <img src="image/2.jpg" style="width: 100%;">
+                    </div>
+    
+                    <div class="col-md-9">
+                        <div class="list-group-item-heading">
+                            <h4 style="color: green;">Php 15,000</h4>
+                            <h4 style="font-size: 20px;"><b>Z-STAR CONTROL 88</b></h4>
+                            <div class="clearfix"></div>
+                        </div>
+                        <p class="list-group-item-text">Dominate with control</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>    
+            </div>
+        </div>
+
+        <div class="col-md-10 col-md-offset-1">
+            <div class="list-group">
+                <a href="product3.html" class="list-group-item" style="padding: 0; margin: 0;">
+                    <div class="col-md-3" style="padding: 0; margin: 0;">
+                        <img src="image/3.jpg" style="width: 100%;">
+                    </div>
+    
+                    <div class="col-md-9">
+                        <div class="list-group-item-heading">
+                            <h4 style="color: green;">Php 20,000</h4>
+                            <h4 style="font-size: 20px;"><b>AERO-STAR SPEED 86</b></h4>
+                            <div class="clearfix"></div>
+                        </div>
+                        <p class="list-group-item-text">Master of speed</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>    
+            </div>
+        </div>
+
+        <div class="col-md-10 col-md-offset-1">
+            <div class="list-group">
+                <a href="product4.html" class="list-group-item" style="padding: 0; margin: 0;">
+                    <div class="col-md-3" style="padding: 0; margin: 0;">
+                        <img src="image/4.jpg" style="width: 100%;">
+                    </div>
+    
+                    <div class="col-md-9">
+                        <div class="list-group-item-heading">
+                            <h4 style="color: green;">Php 25,000</h4>
+                            <h4 style="font-size: 20px;"><b>NITRO-STAR AX 10</b></h4>
+                            <div class="clearfix"></div>
+                        </div>
+                        <p class="list-group-item-text">Develop your game</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>    
+            </div>
+        </div>
+    </aside>
+
+    <header class="col-md-8">
+        <div class="col-md-12">
+            <div class="thumbnail">
+                <img src="image/3.jpg">
+                <div class="caption">
+                    <h4 class="pull-right">Php 20,000</h4>
+                    <h4><a href="product.html">AERO-STAR SPEED 86</a></h4>
+                    <div><button class="btn btn-primary" data-target="#buy_me" data-toggle="modal">Buy this Raquet</button></div>
+                    <div class="modal fade" id="buy_me">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button class="close" data-dismiss="modal">&times;</button>
+                                    <h2 class="modal-title">Buy Raquet</h2>
+                                </div>
+
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control input-lg" placeholder="Enter your name">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="email" class="form-control input-lg" placeholder="Enter your email">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="text" class="form-control input-lg" placeholder="Contact No.">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <textarea class="form-control" rows="5" style="font-size: 20px; color: gray;">Address</textarea>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button class="btn btn-success" data-dismiss="modal">Submit Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <b>Master of speed</b><br>
+                        This professional player racket is designed with the new Miyazaki made-in-Japan shaft and proprietary Double Beam Core. 
+                        Impeccable speed recovery for the highest level on net play and quick rally.
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="col-md-8 col-md-offset-4">
+        <div class="col-md-12">
+            <div class="well">
+                <div class="text-right">
+                    <button class="btn btn-danger">Leave Comments</button>
+                </div>
+            </div>
+
+            <div class="well">
+                <span class="lead">pinks</span>
+                <span class="pull-right">3 days ago</span><hr/>
+                <p>I really love this raquet. Amazing experience on playing recommended for pro player.</p>
+            </div>
+
+            <div class="well">
+                <span class="lead">aneligna</span>
+                <span class="pull-right">4 days ago</span><hr/>
+                <p>Amazing product! I will buy again.</p>
+            </div>
+
+            <div class="well">
+                <span class="lead">seysey</span>
+                <span class="pull-right">5 days ago</span><hr/>
+                <p>My favorite raquet! It's worth it promise make sure to buy this raquet.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="page-header"><h3 class="text-center" style="color: rgb(255, 255, 255);">Related Products</h3></div>
+        
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="image/3.jpg">
+                <div class="caption">
+                    <h4 class="pull-right" style="color: green;">Php 10,000</h4>
+                    <h4><a href="product.html">Z-STAR POWER 88</a></h4>
+                        <b>Stronger & steeper attacks</b><br>
+                        This pro player racket is designed with the new Miyazaki made-in-Japan shaft and Sonic Core VG. 
+                        Its extra-long shaft is designed to overpower your opponent with stronger and steeper attacks.
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="image/2.jpg">
+                <div class="caption">
+                    <h4 class="pull-right" style="color: green;">Php 15,000</h4>
+                    <h4><a href="product.html">Z-STAR CONTROL 88</a></h4>
+                        <b>Dominate with control</b><br>
+                        This professional player racket is designed with the new Miyazaki made-in-Japan shaft and Sonic Core Infinergy. 
+                        Dominate with court with the perfect blend of offense and defence.   
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="image/4.jpg">
+                <div class="caption">
+                    <h4 class="pull-right" style="color: green;">Php 25,000</h4>
+                    <h4><a href="product.html">NITRO-STAR AX 10</a></h4>
+                        <b>Develop your game</b><br>
+                        Lighter frame provides more stability and Isometric head shape for increased power. 
+                        Aluminium racket engineered with an external stability T-joint. When the racket is lighter, you play even faster!
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
