@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Photo Gallery</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/lightbox.js"></script>
+        <style>
+            body{
+                background-color: #2c2621;
+                color: #ffffff;
+            }
+
+            .row{
+                margin-left: 50px;
+            }
+
+            .thumbnail {
+                width: 250px;
+                height: 250px;
+                background-color: #2c2621;
+                border-color: #696969;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    
+            .thumbnail img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+            
+            .navbar {
+                background-color: #3b332d;
+                color: #ffffff;
+            }
+            
+            .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+                color: #ffffff;
+            }
+        </style>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="navbar-brand">Photo Gallery</div>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="happy.html">Happy Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <div class="page-header">
+            <h3 class="text-center">Happy Gallery</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <a href="image/1.jpeg" data-lightbox="gallery" data-title="Koori" class="thumbnail">
+                    <img src="image/1.jpeg">
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="image/2.jpeg" data-lightbox="gallery" data-title="San" class="thumbnail">
+                    <img src="image/2.jpeg">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="image/3.jpeg" data-lightbox="gallery" data-title="Mao" class="thumbnail">
+                    <img src="image/3.jpeg">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="image/4.jpeg" data-lightbox="gallery" data-title="Fam" class="thumbnail">
+                    <img src="image/4.jpeg">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="image/5.jpeg" data-lightbox="gallery" data-title="Lovers" class="thumbnail">
+                    <img src="image/5.jpeg">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="image/6.jpeg" data-lightbox="gallery" data-title="Fam" class="thumbnail">
+                    <img src="image/6.jpeg">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="image/7.jpeg" data-lightbox="gallery" data-title="PNK" class="thumbnail">
+                    <img src="image/7.jpeg">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="image/8.jpeg" data-lightbox="gallery" data-title="Mt. Pamitinan" class="thumbnail">
+                    <img src="image/8.jpeg">
+                </a>   
+            </div>
+            <div class="col-md-4">
+                <a href="image/9.jpeg" data-lightbox="gallery" data-title="Mt. Daraitan" class="thumbnail">
+                    <img src="image/9.jpeg">
+                </a>
+            </div>
+        </div>
+        
+        <footer class="navbar navbar-default">
+            <div class="container">
+                <p class="text-center" style="margin: 15px;">Created by Angelica Mae A. Manliguez</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
