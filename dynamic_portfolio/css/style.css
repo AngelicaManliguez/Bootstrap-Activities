@@ -1,0 +1,173 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family:'Poppins';
+}
+
+.navbar{
+    background-color: rgb(168, 118, 118);
+    min-height: 80px;
+    font-size: 14px;
+    border: none;
+}
+
+.navbar-toggle{
+    margin-top: 20px;
+    border: none;
+}
+
+.navbar-toggle .icon-bar{
+    width: 35px;
+    height: 4px;
+}
+
+.navbar-nav {
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+nav ul  li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.navbar .navbar-header>a {
+    margin-top: 15px;
+    padding-left: 50px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.navbar .navbar-nav>li>a {
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.navbar .navbar-nav>li>a:hover {
+    opacity: .50;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li.active>a{
+    background-color: rgb(87, 62, 62); 
+    color: #fff; 
+}
+			
+#home {
+    background: rgb(225, 172, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#home img{
+    max-width: 250px;
+    height: auto;
+    border-radius: 30%;
+    margin-bottom: 30px;
+}
+
+#home h1 {
+    color: #302727;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+#home hr {
+    width: 50%;
+    border-top: 2px solid rgb(168, 118, 118);
+}
+
+#home p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #302727;
+}
+
+#activities{
+    height: auto;
+    background-color: rgb(202, 135, 135);
+}
+
+#activities .header-title {
+    padding-top: 80px;
+    font-size: 40px;
+    color: #fff;
+}
+
+#activities hr {
+    width: 100%;
+    border-top: 2px solid rgb(255, 208, 208);
+}
+
+#activities img{
+    margin-bottom: 20px;
+    width: 100%;
+	transition: opacity 1s ease-in-out;
+}
+
+#activities img:hover{
+	opacity: .10;
+}
+
+#about{
+    background-color: rgb(225, 172, 172);
+}
+
+#about{
+    height: auto;
+}
+
+#about .header-title {
+    padding-top: 80px;
+    font-size: 40px;
+    color: #302727;
+}
+
+#about hr {
+    width: 80%;
+    border-top: 2px solid rgb(168, 118, 118);
+}
+
+#about .img-circle{
+    width: 50%;
+	transition: opacity 1s ease-in-out;
+}
+
+#about .img-circle:hover{
+	opacity: .10;
+}
+
+#about .col-sm-6 p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    color: #302727;
+}
+
+#contact{
+    background-color: rgb(202, 135, 135);
+    height: auto;
+    padding-bottom: 70px;
+}
+
+#contact .header-title {
+    padding-top: 70px;
+    font-size: 40px;
+    color: #fff;
+}
+
+#contact hr{
+    width: 50%;
+    border-top: 2px solid rgb(255, 208, 208);
+}
+
+

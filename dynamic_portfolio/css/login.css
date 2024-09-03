@@ -1,0 +1,30 @@
+.wrap{
+    background-color: rgb(168, 118, 118);
+    margin-top: 150px;
+    padding: 100px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.logintitle{
+    margin-top: -50px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: 'Poppins';
+}
+
+label{
+    color: #ffffff;
+    font-family: 'Poppins';
+}
+
+.btn{
+    font-family: 'Poppins';
+    background-color:rgb(87, 62, 62);
+    border: none;
+    color: #fff;
+}
+
+.container .btn{
+    text-align: center;
+}
